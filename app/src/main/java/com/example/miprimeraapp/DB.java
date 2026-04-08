@@ -49,7 +49,7 @@ public class DB extends SQLiteOpenHelper {
             return e.getMessage();
         }
     }
-    public Cursor listar_amigos() {
+    public Cursor lista_amigos() {
         SQLiteDatabase db = getReadableDatabase();
         return db.rawQuery("SELECT * FROM amigos", null);
     }
