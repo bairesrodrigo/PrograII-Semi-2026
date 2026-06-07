@@ -84,6 +84,6 @@ public class MyFirebaseMessagingService extends FirebaseMessagingService {
         intent.putExtra("to", remoteMessage.getData().get("para"));
         intent.putExtra("from", remoteMessage.getData().get("de"));
         intent.putExtra("user", remoteMessage.getData().get("user"));
-        LocalBroadcastManager.getInstance(getApplicationContext()).sendBroadcast(intent);
+        //LocalBroadcastManager.getInstance(getApplicationContext()).sendBroadcast(intent);
     }
 }
