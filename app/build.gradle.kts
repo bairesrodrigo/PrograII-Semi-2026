@@ -52,4 +52,6 @@ dependencies {
 
     // 3. Firebase UI para Storage
     implementation("com.firebaseui:firebase-ui-storage:8.0.0")
+
+    implementation("androidx.localbroadcastmanager:localbroadcastmanager:1.1.0")
 }
